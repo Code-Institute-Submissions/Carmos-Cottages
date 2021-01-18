@@ -1,0 +1,107 @@
+body {
+    font-family: 'Zilla Slab', serif;
+    color: rgb(19, 18, 18);
+}
+
+h2 {
+    font-family: 'Zilla Slab', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: rgb(17, 16, 16);
+}
+/*
+.navbar {
+    float: left;
+    font-size: 700;
+    color: rgb(12, 12, 12);
+    
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 2px;
+
+}
+
+#logo, #menu {
+    line-height: 75px;
+    
+
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+   
+
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #ee0d0d;
+}
+*/
+
+
+#principal-image {
+    height: 77vh;
+    background: url('../images/principal.JPG')  no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    animation-name: principal-zoom;
+    animation-duration: 5s;
+    animation-fill-mode:forwards;
+ 
+}
+    
+#principal-text {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+@keyframes principal-zoom {
+  from {
+   transform: scale(1)
+  }
+  
+  to {
+   transform: scale(1.1)
+  }
+}
+
+#cover-text, #cover-text h3 {
+    color: #ffff;
+ }
+
+#cover-text {
+  font-size: 70%;
+  font-family: 100;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  width: 350px;
+  height: 250px;
+
+  padding-top: 60px;
+  padding-left: 30px;
+
+  background-color: rgba(16, 134, 212, 0.644);
+
+  bottom: 100px;
+  left: 30px;
+  
+  position: absolute;
+
+}
