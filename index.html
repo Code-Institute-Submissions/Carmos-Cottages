@@ -1,76 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="uft-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Carmo's Cottages | Beautiful and Peaceful place to relax!</title>
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap"/> 
-    <link rel="stylesheet" href="css/style.css"/>
-    
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 
 <body>
-
     <header>
-        <nav class="navbar navbar-light bg-dark navbar-expand-sm"></nav>
+        <div class="container-fluid navalert-container">
+            <!--Nav bar eh barra de navegacao-->
+        <nav class="navbar navbar-dark navbar-expand-sm">
+          <div class="container-fluid navalert-container">
              <a href="index.html" class="navbar-logo">Carmo's Cottages</a>
-			 <ul class="navbar-nav mr-auto">
+        
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse float-left" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
 			     <li class="active nav-item mr-2"><a class="nav-link" href="#">Home</a></li>
                  <li class="nav-item mr-2"><a class="nav-link" href="#">About</a></li>
                  <li class="nav-item mr-2"><a class="nav-link" href="#">Gallery</a></li>
                  <li class="nav-item mr-2"><a class="nav-link" href="#">Contact</a></li>
-             </ul>         
-    </header>
-
-<!---------------------------------------------------- imagem principal-->
-    
-    <section id="principal-text">
-			<div id="principal-image"></div>
-			<div id="cover-text">
-                <h3> <strong>Arraial D'juda | Bahia-Brazil</strong></h3>
-				<h4>The place that connect you with nature </h4>
+              </ul> 
             
-			</div>
-		</section>
-
-   
-       <article class="container">
-        <!----------------------------------------------reasons-->
-                    <section class="reasons">
-            <h2 class="text-uppercaase">Reasons:</h2>
-            <div class="reasons">
-               
-                <p>Carmo's Cottages is a comfortable, beautiful and peaceful place, with direct connection with nature, at the top of pitinga beach with a privileged view.
-                Wake up every day to birdsong, the sound of the sea and a privileged view of the sunset and sunrise.</p>
-               
-               <p>Our chalets are located on the sea front with private access to the beach. The main house was decorated in the Thailandes theme, with a beautiful garden surrounded by greenery, coconut trees and loose animals such as Pavao, a typical animal from Brazil, Arraial D'juda, providing a romantic, pleasant atmosphere with a lot of tranquility and nature.</p>
-             
-               <p>Our goal is to offer a connection with nature that is pleasant and invigorating. Our chalets are all equipped with no need to worry about anything. We offer chalets for couples and families. We have area for socializing with barbecue in front of the pools (one for children and one for adult) with excellent views of the sea.
-               Come and enjoy Arraial d'juda with us, host in our Cottages.</p>
-
             </div>
-         </section>
+           </div>        
+          </nav>
+    </div>
+    </header>
+    
+<!---------------------------------------------------- imagem principal-->
+<div class="container-fluid image-container">
+          <section id="principal-text">
+               <div id="principal-image">
+			      <div id="cover-text">   
+                     <h4> <strong>Arraial D'juda | Bahia-Brazil</strong></h4>
+				     <h5>The place that connect you with nature </h5>
+			       </div>
+               </div>          
+          </section>
 
+</div>
+
+        <!----------------------------------------------reasons-->
+        <div class="container reasons-container">
+        <section class="reasons">
+            <div class="row">
+                <div class="col-12 my-5">
+
+                     <h2 class="text-uppercaase text-center"><i class="far fa-check-circle d-none d-sm-inline"></i> Reasons:</h2>
+                     <hr class="block-divider">
+                </div>    
+            </div>
+                <div class="reasons">
+                                          
+                   <p>Carmo's Cottages is a comfortable, beautiful and peaceful place, with direct connection with nature, at the top of pitinga beach with a privileged view.
+                    Wake up every day to birdsong, the sound of the sea and a privileged view of the sunset and sunrise.</p>
+               
+                   <p>Our chalets are located on the sea front with private access to the beach. The main house was decorated in the Balinese theme, with a beautiful garden surrounded by greenery, coconut trees and loose animals such as Pavao, a typical animal from Brazil, Arraial D'juda, providing a romantic, pleasant atmosphere with a lot of tranquility and nature.</p>
+             
+                   <p>Our goal is to offer a connection with nature that is pleasant and invigorating. Our chalets are all equipped with no need to worry about anything. We offer chalets for couples and families. We have area for socializing with barbecue in front of the pools (one for children and one for adult) with excellent views of the sea.
+                   Come and enjoy Arraial d'juda with us, host in our Cottages.</p>
+                   <h4 class="text-center"> <i class="fab fa-whatsapp"></i>  +55 (73) 94552-1525  </h4>
+                   <h4 class="text-center ">Carmo's Cottages your best decision </h4>
+              </div>
+        </section>
+        </div>
         <!--/reasons-->
-        <hr>
         
         <!--packages-->
-        <div class="row">
+        <div class="container packages-container">
         <section class="packages">
-            <div class="col-12">
-            <h2 class="text-uppercaase">Packages and Promotions:</h2>
+        <div class="row">
+            <div class="col-12 my-5">
+            <h2 class="text-uppercaase text-center"> <i class="fas fa-bullhorn d-none d-sm-inline"></i> Packages and Promotions:</h2>
+             <hr class="block-divider">
+            </div>
         </div>
         <div class="col-12">
             <div class="packages"> 
         <form>
-            <div class="form-group">
+            <div class="form-group ">
                  <label for="exampleInputName1">Name</label>
                  <input type="name" class="form-control" id="exampleInputName1" aria-describedby="namelHelp" placeholder="Your Name">
            </div>
-           <div class="form-group">
+           <div class="form-group ">
                  <label for="exampleInputEmail1">Email</label>
                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" Your Email">
                  <small id="email" class="form-text text-muted">We will never share your email with anyone.</small>
@@ -83,51 +105,70 @@
        </section>
        </div>
        <!--/packages-->
-       <hr>
+       
       
        <!--quotes-->
-       
+       <div class="container quotes-container">
        <section class="quotes">
            <div class="row">
-               <div class="col-12">
-          <h2 class= "text-uppercaase">Quotes:</h2>
-          </div>
-          </div> 
+               <div class="col-12 my-5">
+               <h2 class= "text-uppercaase text-center"> <i class="fas fa-award d-none d-sm-inline"></i> Quotes:</h2>
+               <hr class="block-divider">
+               </div>
+            </div> 
           <div class="row">
                <div class="col-12 col-md-6">
-          <blockquote class="blockquote">
-              <p>Before came I could not imagine how amazing is this place. Without a doubt I recommend!</p>
-              <p> Anne Petterson</p>
-          </blockquote>
-          </div>
-          <div class="col-12 col-md-6">
-          <blockquote class="blockquote">
-              <p>The energy from this place is invigorating. For sure the best place I spent my hollidays.</p>
-              <p> Frank O'Brien</p>
-          </blockquote>
-          </div>
-          </div>
+                   <div class="media">
+                       <div class="d-none d-sm-block">
+                           <img src="images/girl.img.jpg" class="rounded mr-3" height="100" width="100">
+                       </div>
+                       <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>Before came I could not imagine how amazing is this place. Without a doubt I recommend!</p>
+                                <p> Anne Petterson</p>
+                            </blockquote>
+                          </div>  
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="media">
+                         <div class="d-none d-sm-block">
+                            <img src="images/guy-img.jpg" class="rounded mr-3" height="100" width="100">
+                         </div>
+                       <div class="media-body">
+                            <blockquote class="blockquote">
+                               <p>The energy from this place is invigorating. For sure the best place I spent my hollidays.</p>
+                               <p> Frank O'Brien</p>
+                            </blockquote>
+                          </div>
+                     </div>
+                </div>
+                    </div>
        </section>
-       
+       </div>
        <!--quotes-->
-       <hr>
-      
+       
+    
        <section>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.2867721923185!2d-39.07959168554143!3d-16.511613845401044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7369165f5e54bdd%3A0xbff31cf5226d9a9f!2sAlto%20de%20Pitinga!5e0!3m2!1spt-BR!2sie!4v1610840300472!5m2!1spt-BR!2sie" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"> </iframe>
        </section>
 
-    </article>
+    
 
 
         <footer>
-        <h5>I rent Cottages - Arraial d'juda - Bahia - Brazil</h5>
-        <span>Find us on:</span>
+        <div class="bg-dark">
+        <h5 class="text-uppercaase text-center">Carmo's Cottages - Arraial d'juda - Bahia - Brazil</h5>
+        <h5 class="text-uppercaase text-center"> Find us on:
 
-		<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
-		<a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
-				
-		<p>Site by Monica Puzzi </p>
+		<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)"> <i class="fab fa-facebook"></i> Facebook</a>
+		<a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)"> <i class="fab fa-instagram"></i> Instagram</a>
+		</h5>		
+        <p class="text-uppercaase text-center">Site by Monica Puzzi </p>
+        </div>
     </footer>
-    
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
