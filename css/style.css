@@ -1,7 +1,9 @@
+
 body {
     font-family: 'Zilla Slab', serif;
     color: rgb(19, 18, 18);
     background-color: rgb(221, 221, 209);
+    display: block;
 }
 
 
@@ -13,18 +15,36 @@ h2 {
     color: rgb(223, 107, 29);
 }
 
-/*------------header*/
+/* ------------ Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+
+ text-transform: capitalize ;
+}
+
+.general-sub {
+    font-family: 300, sans-serif;
+    color: #ffff;
+    letter-spacing: 2px;
+    position: relative;
+    
+}
+/*-----------header */
 
 #principal-image {
-    height: 77vh;
-    background: url('../images/principal.JPG')  no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background: url('../images/principal.JPG')  no-repeat center center;
 
+    -webkit-background-size: ease-in-out;
+    -moz-background-size:ease-in-out;
+    -o-background-size: ease-in-out;
+    background-size: ease-in-out;
     animation-name: principal-zoom;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode:forwards;
  
 }
@@ -54,9 +74,9 @@ h2 {
 
 #cover-text {
   font-size: 130%;
-  font-family: 100;
+  font-family: 300;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 
   width: 300px;
   height: 200px;
@@ -73,7 +93,7 @@ h2 {
 
 }
 
-/*Navbar   */
+/*-----------------------Navbar   */
 
 .navalert-container {
     position: relative;
@@ -81,11 +101,12 @@ h2 {
     right: 0;
     padding-right: 0;
     padding-left: 0;
-    z-index: 0;
+    z-index: 1;
+    
 }
 
 .navbar {
-    margin-bottom: 80;
+    margin-bottom: 0;
     border: 0;
     width: 100%;
     background-color: rgb(52, 66, 52);
@@ -96,30 +117,46 @@ h2 {
  border: 0;
 
 }
+
 .navbar-logo {
+    font-family: 300;
     float: left;
     font-size: 30px;
     margin-left: 10px;
     line-height: 70px;
-    color: rgb(223, 107, 29);
+    color: rgb(223, 29, 149);
     font-weight: bold;
     padding-bottom: 20px;
+    text-transform: uppercase;
     
 }
+/*
+.navbar-logo a  {
+    font-family: 300;
+    color: rgb(223, 107, 29);
+    font-weight: bold;
+    float: right;
+    font-size: 35px;
+    text-transform: uppercase;   rgb(73, 168, 81);
+}
+*/
+.navalert-container a:hover {
+    color: rgb(223, 107, 29);
+}
 
-.navbar .navbar-nav a {
+
+.navbar navbar-nav a {
     font-weight: bold;
     position: right;
     color: #ffff;
-
 }
 
 .navbar .navbar-nav a:hover {
-    border-bottom: 2px solid rgb(223, 107, 29) ;
+    border-bottom: 2px solid rgb(223, 29, 149) ;
 }
 
 
-/*Block dividers*/
+/* Block dividers */
 
 .block-divider {
     width: 75px;
@@ -127,12 +164,13 @@ h2 {
     border: 0;
     background-color:rgb(223, 107, 29) ;
 }
-    
-.reasons-container {
 
+.important-reasons p{
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    text-align: justify;
 }
-
-
+/*
 .packages-container {
 
 }
@@ -142,3 +180,63 @@ h2 {
 {
 
 }
+*/
+
+/*----------Footer */
+
+
+footer {
+    background-color: rgb(52, 66, 52);
+    min-height: 110px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.footer-container h5 {
+   
+    color: rgb(223, 107, 29);
+    letter-spacing: 1px;
+    font-size: 20px;
+    
+}
+
+.by-me  {
+    color: #ffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/*----------Social Links */
+
+
+.social-links li a i {
+    width: 30px;
+    height: 30px;
+    line-height: 7px;
+    border-radius: 15%;
+    color: #ffff;
+    background: rgb(81, 107, 81);
+    text-align: center;
+    padding: 11px 0;
+   
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+.social-links a i  {
+    width: 30px;
+    height: 30px;
+    line-height: 7px;
+    border-radius: 15%;
+    color: #09b803;
+    text-align: center;
+    padding: 11px 0;
+    
+}
+
+/* --- Gallery container ----*/
+
