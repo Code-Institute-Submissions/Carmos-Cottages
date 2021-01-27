@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700!Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
 
 
 header {
@@ -32,7 +32,7 @@ h4 {
 }
 
 .general-sub {
-    font-family: 300, sans-serif;
+    font-family: 'Zilla Slab', serif;
     color: rgb(223, 107, 29);
     letter-spacing: 2px;
     position: relative;
@@ -95,7 +95,7 @@ h4 {
 }
 
 .navbar-logo {
-    font-family: 300;
+    font-family: 'Zilla Slab', serif;
     float: left;
     font-size: 30px;
     margin-left: 10px;
@@ -107,7 +107,7 @@ h4 {
 }
 
 .navbar-logo a  {
-    font-family: 300;
+    font-family:  'Zilla Slab', serif;
     color: rgb(223, 107, 29);
     font-weight: bold;
     float: right;
@@ -118,7 +118,7 @@ h4 {
 
 .navbar navbar-nav a {
     font-weight: bold;
-    position: right;
+    position: inherit;
     color: #ffff;
 }
 
