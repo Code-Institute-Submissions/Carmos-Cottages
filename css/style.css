@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700!Exo:100,200,300,400,500,600,700');
+
+
+header {
+    margin: 0;
+}
+
 body {
     font-family: 'Zilla Slab', serif;
     color: rgb(19, 18, 18);
@@ -31,50 +38,30 @@ h4 {
     position: relative;
     
 }
-/*-----------header */
 
-#principal-image {
-    height: 500px;
-    width: 100%;
-    background: url('../images/principal.JPG')  no-repeat center center;
+/*-------------------------------------callout-container */
 
-}
 
-.principal-text {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
+
+.callout-container {
+   
+    height: 100vh;
+
+    background: url('../images/principal.JPG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     position: relative;
-    
-    
-}
+} 
 
-#cover-text, #cover-text h4 {
-    color: #ffff;
- }
 
-#cover-text {
-  font-size: 130%;
-  font-family: 300;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-
-  width: 300px;
-  height: 200px;
-
-  padding-top: 40px;
-  padding-left: 30px;
-
-  background-color: rgba(78, 140, 172, 0.644);
-
-  bottom: 30px;
-  left: 80px;
-  
-  position: absolute;
-
-}
-
-/*-----------------------Navbar   */
+/*----------------------------------------------Navbar   */
 
 .navalert-container {
     position: relative;
@@ -90,8 +77,7 @@ h4 {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 0;
-    padding-left: 0;
+
 }
 
 .navbar {
@@ -125,13 +111,9 @@ h4 {
     font-weight: bold;
     float: right;
     font-size: 35px;
-    text-transform: uppercase;   rgb (73, 168, 81);
+    text-transform: uppercase; 
+    background-color: rgb(73, 168, 81);
 }
-
-.navalert-container a:hover {
-    color: rgb(223, 107, 29);
-}
-
 
 .navbar navbar-nav a {
     font-weight: bold;
@@ -144,7 +126,7 @@ h4 {
 }
 
 
-/* Block dividers */
+/* -----------------------------------------Block dividers */
 
 .block-divider {
     width: 75px;
@@ -159,7 +141,7 @@ h4 {
     text-align: justify;
 }
 
-/*---- reasons----*/
+/*-------------------------------------- reasons----*/
 
 .important-reasons p {
     color: rgb(12, 12, 12);
@@ -167,16 +149,23 @@ h4 {
     text-align: justify;
 }
 
-/*---- form----*/
+/*------------------------------------- form----*/
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
 }
 
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    
+}
 
 
-/*----------Footer */
+
+/*----------------------------------------------Footer */
 
 
 footer {
@@ -202,7 +191,7 @@ footer {
     letter-spacing: 1px;
 }
 
-/*-------rgb(81, 107, 81)---Social Links */
+/*--------------------------------Social Links */
 
 
 .social-links li a i {
@@ -229,43 +218,12 @@ footer {
     color: #09b803;
     text-align: center;
     padding: 11px 0;
-    
 }
 
-/* --- Gallery container ----*/
+/*-----------------------------Video------------*/
 
-.gallery {
-    background: rgb(221, 221, 209)
-    max-width: 50em;
-    padding: 1.5em;
-    margin: 2em auto;
-    list-style: none;
-}
-
-.gallery li {
-    float: left;
-    width: 23%;
-    margin: 1%;
-    background: rgb(221, 221, 209);
-}
-
-.gallery a {
-    display: block;
-}
-
-.gallery img {
-    max-width: 100%;
-    display: block;
+.video-container {
+    padding-top: 10px;
     margin: 0 auto;
-}
-
-.gallery .p {
-    background: #e84610;
-    color: #ffff;
-    padding: 0.2em;
-    text-align: center;
-}
-
-.gallery .p:hover {
-background-color: #e84610;
+    max-width: 70%;
 }
