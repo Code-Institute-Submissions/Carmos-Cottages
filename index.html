@@ -34,10 +34,9 @@
                          Prices
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Three House</a>
-                            <a class="dropdown-item" href="#">Peacock Cottage</a>
-                            <a class="dropdown-item" href="#">Parrot Cottage</a>
-                            <a class="dropdown-item" href="#">Toucan Cottage</a>
+                            <a class="dropdown-item" href="prices.html">Three House</a>
+                            <a class="dropdown-item" href="prices.html">Peacock Cottage</a>
+                            <a class="dropdown-item" href="prices.html">Parrot Cottage</a>
                         </div>
                     </li>
 
@@ -57,8 +56,9 @@
     <div class="row">
         <div id="principal-image" class="col-12">
             <section class="callout jumbotron text-center">
-                    <h3 class="jumbotron-header">Arraial D'juda | Bahia-Brazil</h3>
-                    <h5>The place that connects you to nature </h5>
+                    <h1 class="jumbotron-header">Arraial D'juda | Bahia-Brazil</h1>
+                    <h3>The place that connects you to nature </h3>
+                      <p><button class="btn btn-lg btn-danger" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
             </section>
         </div>   
     </div>       
@@ -94,8 +94,7 @@
         </div>
         
         
-        <!--Form-->
-        <div class="container form-container">
+        <!--Form <div class="container form-container">
         <section class="container-fluid">
         <div class="row">
             <div class="col-sm-12 my-5">
@@ -118,7 +117,8 @@
             </div>    
             </div>
        </section>
-       </div>
+       </div>-->
+        
               
        <!--quotes-->
        <div class="container quotes-container">
@@ -166,7 +166,7 @@
        <section id="contact">
            <div class="row">
                <div class="col-sm-12 my-5">
-               <h2 class="text-uppercaase text-center"> <i class="fas fa-envelope d-none d-sm-inline"></i> Contact:</h2>
+               <h2 class="text-uppercaase text-center"> Contact Us:</h2>
                <hr class="block-divider">
                </div>
             </div> 
@@ -176,39 +176,69 @@
                        <div class="media-body">
                             <blockquote class="blockquote">
                                 <div>
-                                <strong>Cell Phone:</strong> 
-                                <span>+55 (73) 98725-2582</span>
+                                <strong><i class="fas fa-mobile-alt mr-3 mb-2" aria-hidden="true"></i></strong> 
+                                <a href="tel:555-555-555"> +55 (73) 55555-5555</a>
                                 </div>
                                 <div>
-			                     <strong>Phone:</strong>
-			                    <span>+55 (73) 3029-9586</span>
+                                <strong><i class="fas fa-envelope-square mr-3 mb-2" aria-hidden="true"></i></strong> 
+                                <a href="mailto:carmos-cottage@gmail.com"> Carmos-cottage@carmos.com</a>
 			                    </div>
-			                    <div>
-			                    <strong>E-mail:</strong> 
-			                    <span>carmos-cottage@gmail.com</span>
-			                    </div>
-		    
-                            </blockquote>
+                                
+		                    </blockquote>
                         </div>  
                     </div>
-                </div>
+                
+            </div>
+            
                 <div class="col-12 col-md-6">
                     <div class="media">
                        <div class="media-body">
                             <blockquote class="blockquote ">
-                               <div class="contact-box-center">
-			                       <p>Alto da Pitinga,<br>1 street,<br>Arraial D'Juda - Bahia - Brazil</p>
-		                       </div>
+                               <div>
+                                <p><strong><i class="fas fa-home mr-3 mb-2" aria-hidden="true"></i></strong>
+                                   <a href="#">Arraial D'Juda - Bahia - Brazil</a>                              
+                                </p>
+                               </div>
+                              <div>
+			                   <strong><i class="fas fa-phone-volume mr-3 mb-2" aria-hidden="true"></i></strong> 
+                                <a href="tel:555-555-555"> +55 (73) 555-5555 </a>
+                                </div>
                             </blockquote>
                         </div>
                     </div>
                 </div>
             </div>
      </section>
-       </div>
+    </div>
 
+    <!--Modal-->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"> <strong>Sign Up To Get New Packages and Promotions!</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-}
      <!--footer-->
      <footer>
      <section class="container-fluid">
@@ -219,13 +249,13 @@
                 <div class="uppercase general-sub text-center">Find us on:
                         <ul class="list-inline social-links">
                         <li class="list-inline-item">
-                         <a href="https://www.facebook.com" target="_blank" aria-label="go to facebook"> 
+                         <a href="https://www.facebook.com/" target="_blank" aria-label="go to facebook"> 
                             <i class="fab fa-facebook" aria-hidden="true"> </i> 
                             <span class="sr-only">Facebook</span>
                          </a>
                         </li>
                         <li class="list-inline-item">
-                           <a href="https://www.instagram.com" target="_blank" aria-label="go to instagram"> 
+                           <a href="https://www.instagram.com/" target="_blank" aria-label="go to instagram"> 
                             <i class="fab fa-instagram" aria-hidden="true"> </i> 
                             <span class="sr-only">Instagram</span>
                          </a>
@@ -242,7 +272,11 @@
             </div>
             </div>
         </div>
+
         </section>
+
+
+
     </footer>
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
