@@ -64,12 +64,12 @@ h4 {
 
 .jumbotron {
     background-color: transparent;
-    color: rgb(247, 109, 17);
+    color: white;
     
 }
 
 .jumbotron-header {
-    color: rgb(255, 102, 0);
+    color: white;
     font-weight: bold;
     margin-bottom: 30px;
 }
