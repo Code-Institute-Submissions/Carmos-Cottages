@@ -158,11 +158,6 @@ h4 {
     background-color:rgb(223, 107, 29) ;
 }
 
-.important-reasons p{
-    color: rgb(12, 12, 12);
-    font-size: 20px;
-    text-align: justify;
-}
 
 /*-------------------------------------- reasons----*/
 
@@ -292,12 +287,13 @@ img {
 /* ------------------Carousel------------------ */
 
 .my-carousel-img {
-    height: 100vh;
+    max-height: 100vh;
     width: 100%;
 }
 
 .carousel {
     position: relative;
+
 }
 
 .carousel-indicators li {
@@ -413,4 +409,12 @@ img {
     border: 2px solid rgb(40, 105, 46);
     width: 50%;
     margin: auto;
+
+    align-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: .25rem;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
 }
