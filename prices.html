@@ -39,7 +39,7 @@
                             <a class="dropdown-item" href="prices.html">Parrot Cottage</a>
                         </div>
                     </li>
-
+                 <li class="nav-item mr-2"><a class="nav-link" href="prices.html#facilities" aria-label="go to facilities page">Facilities</a></li>
                  <li class="nav-item mr-2"><a class="nav-link" href="map.html" aria-label="go to map page">Map</a></li>
                  <li class="nav-item mr-2"><a class="nav-link" href="index.html#contact" aria-label="Go to contact information section">Contact</a></li>
               </ul> 
@@ -49,6 +49,7 @@
           </nav>
     </div>
     </header>
+
     <!--Carousel-->
 <section>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -90,7 +91,8 @@
   </a>
 </div>
 
-<div class="col-md-10 text-white mt-3">
+
+<div class="col-md-12 text-black mt-3">
         <h2 class="text-uppercaase text-center"><i class="fas fa-thumbs-up d-none d-sm-inline"></i> Prices:</h2>
         <hr class="block-divider">
         <div class="price mb-5 col-sm-12 my-5">
@@ -107,7 +109,7 @@
                            <li class="font-weight-bold price-card-item py-4"> Full Kitchen</li>
                            <li class="font-weight-bold price-card-item py-4"> Balcony</li>
                         </ul>
-                        <a href="#contact" class="btn btn-lg btn-danger price-card-button" role="button">Book!</a>
+                        <p><button class="btn btn-lg btn-danger form-modal" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
                      </div>
                   </div>
                </div>
@@ -120,9 +122,9 @@
                         <ul class="list-unstyled">
                            <li class="font-weight-bold price-card-item py-4">One Bedroom and One Toilets</li>
                            <li class="font-weight-bold price-card-item py-4">Full Kitchen</li>
-                           <li class="font-weight-bold price-card-item py-4">Dining room</li>
+                           <li class="font-weight-bold price-card-item py-4">Dining Room</li>
                         </ul>
-                        <a href="#signUpModal" class="btn btn-lg btn-danger price-card-button" role="button">Book!</a>
+                       <p><button class="btn btn-lg btn-danger form-modal" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
                      </div>
                   </div>
                </div>
@@ -137,19 +139,73 @@
                            <li class="font-weight-bold price-card-item py-4">Living Room</li>
                            
                         </ul>
-                        <a href="#contact" class="btn btn-lg btn-danger price-card-button" role="button">Book!</a>
+                         <p><button class="btn btn-lg btn-danger form-modal" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
                      </div>
                   </div>
                </div>
                
             </div>
+<!--facilities-->
+<section id="facilities">
+<div class="col-md-12 text-black mt-3">
 
+        <h2 class="text-uppercaase text-center"><i class="fas fa-thumbs-up d-none d-sm-inline"></i> Facilities:</h2>
+        <hr class="block-divider">
+            <div class="price mb-5 col-sm-12 my-5">
+              <h4 class="price-par text-center">We offer Free Wifi, Cottages with Sea Front, Barbecue Area, Free Parking, Sea view from all the area, Private access to the Beach, Children Pool and Adult Pool for more confort. Come with us to enjoy this Beautiful Place.</h4>
 
-
+              <ul class="list-group text-center">
+    
+              <strong>
+              <li class="list-group-item list-group-item-primary">Free Wifi</li>
+              <li class="list-group-item list-group-item-secondary">Sea Front</li>
+              <li class="list-group-item list-group-item-success">Barbecue Area</li>
+              <li class="list-group-item list-group-item-danger">Free Parking</li>
+              <li class="list-group-item list-group-item-warning">Sea View</li>
+              <li class="list-group-item list-group-item-info">Private Access To The Beach</li>
+              <li class="list-group-item list-group-item-danger">Children Pool</li>
+              <li class="list-group-item list-group-item-dark">Adult Pool</li>
+              </strong>
+              </ul>
+            </div>
 
 </div>
- </section>
+</section>
+</div>
 
+</section>
+
+ <!--modal-->
+
+
+
+
+<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"> <strong>Book Your Cottage Right Now!</strong></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text textmuted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <input type="message" class="form-control" id="message" placeholder="Message">
+                        </div>
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
      <!--footer-->
