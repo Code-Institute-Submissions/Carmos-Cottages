@@ -344,9 +344,8 @@ img {
 }
 
 .card-body {
-    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    min-height: 1px;
+    min-height: 5px;
     padding: 1.25rem;
 }
 
@@ -383,23 +382,9 @@ img {
     margin: 0;
 }
 
-.price-card-item {
-    border-bottom: 2px groove #fafafa;
-    width: 50%;
-    margin: auto;
-}
 
-.price-card-button {
-    font-family: 'Zilla Slab', serif;
-    font-weight: 600;
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background: #09b803;
-    transition: .3s;
-}
 
-/*------------------ Facilities------------------ */
+/*-------------- Facilities------------------ */
 
 .list-group-item {
     position: relative;
