@@ -8,7 +8,7 @@ The main objective of this website is to allow people from all over the world to
 
 **Carmo's Cottages** is a **Milestone Project 1** educational project for the Full-Stack Software Developer program developed by the **Code Institute**.
 
- ![Screenshot](images/documentation/photo.png)
+ ![Screenshot](assets/documentation/photo.png)
 
 
 ## User Experience (UX)
@@ -36,15 +36,11 @@ The design was done in basic colours of:
 - White;
 - Black rgb (19, 18, 18).
 
-## Wireframes
+## Wireframe
 
-Wireframes were not used in this project. It was built directly on gitpod.
 
-Home Page Wireframe - View
+- [Home Page Wireframe]()
 
-Mobile Wireframe - View
-
-Contact Us Page Wireframe - View
 
 **Typography**
 
@@ -65,10 +61,54 @@ Two sources were used for this first project:
 - Icons were used throughout the site to improve the efficiency of UX.
 
 # Features - fazer depois
+Long scrollable page with snapping to the sections.
+
+Sticky top menu, wich makes it 'feel' like multiple pages.
+
+Menu with icons only for an intuitive design with an alternative for visual impaired people.
+
+Icons in the upper right corner of the sections to instantly align them vertically on the screen.
+
+Arrow icons in the lower right corner to scroll a section up or down.
+
+Mouse-hover tooltips for icons and links.
+
+Smooth scrolling for menu items.
+
+Static pictures below the sections for a nice scrolling effect.
+
+Fully responsive design.
+
+Always visible social media links at the left side on wider screens.
+
+Horizontal bar of social icons for the smaller screens.
+
+Record front cover as first page wich will always be visible behind the other transparent pages.
+
+Info section with a short introduction.
+
+Stream section with an embedded soundcloud playlist.
+
+Download section for the MP3/Flac version of the record with help info on zip-files.
+
+Cover-art section to showcase the album-art.
+
+Releaseparty section with an embedded youtube video of the releaseparty.
+
+Back cover of the record.
+
+Footer with credits and links to contributers to both the website as the record.
+
+Transparent background in the footer wich still matches the colour of the navigation bar
+
+Form to sign up for future updates by mail.
+
+In this release the form will do nothing but reload the page, as its functionality is out of the scope of this project.
 
 
 
 ### Resources Left to implement 
+- Option to switch to the Portuguese Language.
 - Implement online payment system.
 - Implement way of making online reservation of Cottages.
 
@@ -120,11 +160,11 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 
  - **Valid CSS**
 
-![Valid CSS](images/documentation/css.png)
+![Valid CSS](assets/documentation/css.png)
 
 - **Valid HTML**
 
-![Valid HTML](images/documentation/html.png)
+![Valid HTML](assets/documentation/html.png)
 
 All of the pages were tested and validated to ensure the perfect functioning of the project / website.
 
@@ -160,13 +200,13 @@ This site was validated by Address, copied the address of my [Github](https://gi
 
 - There are photos that can be opened on separate pages. It has a video that is played loudly with the volume on the mute, but it has buttons that can stop playback, start again, volume and mute control, it also has the possibility of enlarging it to full screen, downloading the video and the possibility of taking pictures of images from the video. Which is highly responsive on all devices.
 
- ![Screenshot](images/documentation/2print.png)
+ ![Screenshot](assets/documentation/2print.png)
 
 - There is a "Contact Us" section located at the end of the main page and in the menu, with email address, contact numbers for landline and cell phones and WhatsApp. Clicking on the email address or phones, you are immediately directed to the email box or dialing the phone or WhatsApp.
 
 - All social media links are housed in the footer and have been tested.
 
-![Screenshot](images/documentation/contact.png)
+![Screenshot](assets/documentation/contact.png)
 
 - **You can find the site working here: [Demo](https://monicapuzzi.github.io/Carmos-Cottages/)**
 
