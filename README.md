@@ -8,7 +8,7 @@ The main objective of this website is to allow people from all over the world to
 
 **Carmo's Cottages** is a **Milestone Project 1** educational project for the Full-Stack Software Developer program developed by the **Code Institute**.
 
- ![Screenshot](photo.png)
+ ![Screenshot](images/documentation/photo.png)
 
 
 ## User Experience (UX)
@@ -120,11 +120,11 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 
  - **Valid CSS**
 
-![Valid CSS](css.png)
+![Valid CSS](images/documentation/css.png)
 
 - **Valid HTML**
 
-![Valid HTML](html.png)
+![Valid HTML](images/documentation/html.png)
 
 All of the pages were tested and validated to ensure the perfect functioning of the project / website.
 
@@ -160,13 +160,13 @@ This site was validated by Address, copied the address of my [Github](https://gi
 
 - There are photos that can be opened on separate pages. It has a video that is played loudly with the volume on the mute, but it has buttons that can stop playback, start again, volume and mute control, it also has the possibility of enlarging it to full screen, downloading the video and the possibility of taking pictures of images from the video. Which is highly responsive on all devices.
 
- ![Screenshot](2print.png)
+ ![Screenshot](images/documentation/2print.png)
 
 - There is a "Contact Us" section located at the end of the main page and in the menu, with email address, contact numbers for landline and cell phones and WhatsApp. Clicking on the email address or phones, you are immediately directed to the email box or dialing the phone or WhatsApp.
 
 - All social media links are housed in the footer and have been tested.
 
-![Screenshot](contact.png)
+![Screenshot](images/documentation/contact.png)
 
 - **You can find the site working here: [Demo](https://monicapuzzi.github.io/Carmos-Cottages/)**
 

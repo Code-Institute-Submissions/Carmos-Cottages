@@ -114,32 +114,12 @@ h4 {
 	text-transform: uppercase;
 }
 
-.navbar-logo a {
-	font-family: 'Zilla Slab', serif;
-	color: rgb(255, 106, 7);
-	font-weight: bold;
-	float: right;
-	font-size: 75px;
-	text-transform: uppercase;
-	background-color: rgb(73, 168, 81);
-}
-
-.navbar .navbar-nav a {
-	position: inherit;
-    color: #fff;
-    font-size: 18px;
-        
-}
-
-.navbar .dropdown-menu a{
-    position: inherit;
-    color: rgb(54, 109, 59);
-    font-size: 18px;
-}
-
 .navbar .navbar-nav a:hover {
-    border-bottom: 4px solid rgb(223, 107, 29);
-    
+	border-bottom: 4px solid rgb(223, 107, 29);
+}
+
+.navbar-nav {
+	font-size: 18px;
 }
 
 
@@ -153,7 +133,7 @@ h4 {
 }
 
 
-/*-------------------------------------- reasons----*/
+/*-------------------------------------- reasons */
 
 .important-reasons p {
 	color: rgb(12, 12, 12);
@@ -162,7 +142,7 @@ h4 {
 }
 
 
-/*-------------------------------------- modal----*/
+/*-------------------------------------- modal*/
 
 .modal-content {
 	background-color: rgb(209, 209, 140);
@@ -235,7 +215,7 @@ footer {
 }
 
 
-/*-----------------------------Gallery------------*/
+/*-----------------------------Gallery */
 
 .video-container {
 	align-content: center;
@@ -277,7 +257,7 @@ img {
 }
 
 
-/* ------------------Carousel------------------ */
+/* ------------------Carousel */
 
 .my-carousel-img {
 	max-height: 100vh;
@@ -325,7 +305,7 @@ img {
 }
 
 
-/*------------------ prices------------------ */
+/*------------------ prices */
 
 .price-par {
 	color: black;
@@ -373,7 +353,7 @@ img {
 }
 
 
-/*-------------- Facilities------------------ */
+/*-------------- Facilities */
 
 .list-group-item {
 	position: relative;

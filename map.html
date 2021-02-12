@@ -1,125 +1,110 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&amp;display=swap"> 
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title> Carmo's Cottages | Beautiful and Peaceful place to relax!</title>
-</head>
-
-<body>
-    <header>
-        <div class="container-fluid navalert-container">
-            <!--Nav bar eh barra de navegacao-->
-        <nav class="navbar navbar-dark navbar-expand-sm">
-          <div class="container-fluid navalert-container">
-             <a href="index.html">
-                 <h3 class="navbar-logo">Carmo's Cottages</h3>
-
-                 </a>
-        
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span></button>
-
-            <div class="collapse navbar-collapse float-left" id="navbarNavDropdown">
-              <ul class="navbar-nav ml-auto">
-			     <li class="active nav-item mr-2"> <a class="nav-link" href="index.html" aria-label="go to home page">Home</a></li>
-                 <li class="nav-item mr-2"><a class="nav-link" href="gallery.html" aria-label="go to the gallery page">Gallery</a></li>
-                 <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         Prices
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="prices.html">Three House</a>
-                            <a class="dropdown-item" href="prices.html">Peacock Cottage</a>
-                            <a class="dropdown-item" href="prices.html">Parrot Cottage</a>
-                        </div>
-                    </li>
-                 <li class="nav-item mr-2"><a class="nav-link" href="prices.html#facilities" aria-label="go to facilities page">Facilities</a></li>
-                 <li class="nav-item mr-2"><a class="nav-link" href="map.html" aria-label="go to map page">Map</a></li>
-                 <li class="nav-item mr-2"><a class="nav-link" href="index.html#contact" aria-label="Go to contact information section">Contact</a></li>
-              </ul> 
-            
-            </div>
-           </div>        
-          </nav>
-    </div>
-    </header>
-    
-
-<div class="container map-information">
-<section class="map">
-    <div class="row">
-        <div class="col-12 my-5">              
-            <h2 class="text-uppercaase text-center"> <i class="fas fa-map-signs d-none d-sm-inline"></i> How to get to Carmo's Cottages:</h2>
-            <hr class="block-divider">
-            <div class="col-sm-12 my-5">
-            <h5>Our chalets are located at the top of Pitinga. Follow Av. Brasil with upward and light curves. It is a 15-minute drive from the center of Arraial d'ajuda.
-            </h5>
-            </div>
-        </div>
-    </div>
-</section>
-</div>
-
-<div class="container map-container">
-        <section class="map">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Bootstrap, fontawesome, google fonts, style.css-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&amp;display=swap">
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <!--Title-->
+      <title> Carmo's Cottages | Beautiful and Peaceful place to relax!</title>
+   </head>
+   <body>
+      <header>
+         <div class="container-fluid navalert-container">
+            <!-- Nav bar - logo and dropdown menu -->
+            <nav class="navbar navbar-dark navbar-expand-sm">
+               <div class="container-fluid navalert-container">
+                  <a href="index.html">
+                     <h3 class="navbar-logo">Carmo's Cottages</h3>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span></button>
+                  <div class="collapse navbar-collapse float-left" id="navbarNavDropdown">
+                     <ul class="navbar-nav ml-auto">
+                        <li class="active nav-item mr-2"> <a class="nav-link" href="index.html" aria-label="go to home page">Home</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="gallery.html" aria-label="go to the gallery page">Gallery</a></li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Prices
+                           </a>
+                           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="prices.html">Three House</a>
+                              <a class="dropdown-item" href="prices.html">Peacock Cottage</a>
+                              <a class="dropdown-item" href="prices.html">Parrot Cottage</a>
+                           </div>
+                        </li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="prices.html#facilities" aria-label="go to facilities page">Facilities</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="map.html" aria-label="go to map page">Map</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="index.html#contact" aria-label="Go to contact information section">Contact</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <div class="container map-information">
+         <section class="map">
             <div class="row">
-            <div class="col-12 my-5">
-            
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.2867721923185!2d-39.07959168554143!3d-16.511613845401044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7369165f5e54bdd%3A0xbff31cf5226d9a9f!2sAlto%20de%20Pitinga!5e0!3m2!1spt-BR!2sie!4v1610840300472!5m2!1spt-BR!2sie" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"> </iframe>
-    
+               <div class="col-12 my-5">
+                  <h2 class="text-uppercaase text-center"> <i class="fas fa-map-signs d-none d-sm-inline"></i> How to get to Carmo's Cottages:</h2>
+                  <hr class="block-divider">
+                  <div class="col-sm-12 my-5">
+                     <h5>Our chalets are located at the top of Pitinga. Follow Av. Brasil with upward and light curves. It is a 15-minute drive from the center of Arraial d'ajuda.
+                     </h5>
+                  </div>
+               </div>
             </div>
+         </section>
+      </div>
+      <div class="container map-container">
+         <section class="map">
+            <div class="row">
+               <div class="col-12 my-5">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.2867721923185!2d-39.07959168554143!3d-16.511613845401044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7369165f5e54bdd%3A0xbff31cf5226d9a9f!2sAlto%20de%20Pitinga!5e0!3m2!1spt-BR!2sie!4v1610840300472!5m2!1spt-BR!2sie" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"> </iframe>
+               </div>
             </div>
-        
-        </section>
-    </div>
-       
-     <!--footer-->
-     <footer>
-     <section class="container-fluid">
-         
-        <div class="row">
-            <div class="col-sm-12 footer-container">
-                <h5 class="uppercase general-sub text-center"> Carmo's Cottages - Arraial d'juda - Bahia - Brazil</h5>
-                <div class="uppercase general-sub text-center">Find us on:
-                        <ul class="list-inline social-links">
+         </section>
+      </div>
+      <!--footer-->
+      <footer>
+         <section class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 footer-container">
+                  <h5 class="uppercase general-sub text-center"> Carmo's Cottages - Arraial d'juda - Bahia - Brazil</h5>
+                  <div class="uppercase general-sub text-center">
+                     Find us on:
+                     <ul class="list-inline social-links">
                         <li class="list-inline-item">
-                         <a href="https://www.facebook.com/" target="_blank" aria-label="go to facebook"> 
-                            <i class="fab fa-facebook" aria-hidden="true"> </i> 
-                            <span class="sr-only">Facebook</span>
-                         </a>
+                           <a href="https://www.facebook.com/" target="_blank" aria-label="go to facebook"> 
+                           <i class="fab fa-facebook" aria-hidden="true"> </i> 
+                           <span class="sr-only">Facebook</span>
+                           </a>
                         </li>
                         <li class="list-inline-item">
                            <a href="https://www.instagram.com/" target="_blank" aria-label="go to instagram"> 
-                            <i class="fab fa-instagram" aria-hidden="true"> </i> 
-                            <span class="sr-only">Instagram</span>
-                         </a>
+                           <i class="fab fa-instagram" aria-hidden="true"> </i> 
+                           <span class="sr-only">Instagram</span>
+                           </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://twitter.com/" target="_blank" aria-label="go to twitter">
-                            <i class="fab fa-twitter" aria-hidden="true"></i> </a>
-                            <span class="sr-only">Twitter</span>
+                           <a href="https://twitter.com/" target="_blank" aria-label="go to twitter">
+                           <i class="fab fa-twitter" aria-hidden="true"></i> </a>
+                           <span class="sr-only">Twitter</span>
                         </li>
-                    </ul>
-                
-                <p class="uppercase general-sub text-center by-me"><strong> by Monica Puzzi </strong>
-                </p>
+                     </ul>
+                     <p class="uppercase general-sub text-center by"><strong> by Monica Puzzi </strong>
+                     </p>
+                  </div>
+               </div>
             </div>
-            </div>
-        </div>
-
-        </section>
-
-
-
-    </footer>
-   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
+         </section>
+      </footer>
+      <!--Jquery, pooper.js, bootstrap-->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   </body>
 </html>
