@@ -1,25 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500;600;700&display=swap');
-
-
 header {
-    margin: 0;
+	margin: 0;
 }
 
 body {
-    font-family: 'Zilla Slab', serif;
-    color: rgb(19, 18, 18);
-    background-color: rgb(221, 221, 209);
-    display: block;
+	font-family: 'Zilla Slab', serif;
+	color: rgb(19, 18, 18);
+	background-color: rgb(221, 221, 209);
+	display: block;
 }
-
 
 h2 {
-    font-family: 'Zilla Slab', serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0px;
-    color: rgb(223, 107, 29);
+	font-family: 'Zilla Slab', serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0px;
+	color: rgb(223, 107, 29);
 }
+
 
 /* ------------ Special paddings/margins/text */
 
@@ -27,379 +25,369 @@ h1,
 h2,
 h3,
 h4 {
-
- text-transform: capitalize ;
+	text-transform: capitalize;
 }
 
 .general-sub {
-    font-family: 'Zilla Slab', serif;
-    color: rgb(223, 107, 29);
-    letter-spacing: 2px;
-    position: relative;
-    
+	font-family: 'Zilla Slab', serif;
+	color: rgb(223, 107, 29);
+	letter-spacing: 2px;
+	position: relative;
 }
 
 
 /*-------------------------------------callout-container */
 
-
-
 .callout-container {
-   
-    height: 100vh;
+	height: 100vh;
+	background: url('../images/principal.JPG') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
 
-    background: url('../images/principal.JPG') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-} 
 
 /*-------------------------Jumbotron*/
 
 .jumbotron {
-    background-color: transparent;
-    color: white;
-    
+	background-color: transparent;
+	color: white;
 }
 
 .jumbotron-header {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 30px;
 }
 
 .opaque-overlay {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(5, 5, 5, 0.226);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(5, 5, 5, 0.226);
 }
+
 
 /*----------------------------------------------Navbar   */
 
 .navalert-container {
-    position: relative;
-    top: 0;
-    right: 0;
-    padding-right: 0;
-    padding-left: 0;
-    z-index: 1;
-    
+	position: relative;
+	top: 0;
+	right: 0;
+	padding-right: 0;
+	padding-left: 0;
+	z-index: 1;
 }
 
 .container-fluid {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: rgb(14, 92, 14);
-
+	margin-bottom: 0;
+	border: 0;
+	width: 100%;
+	background-color: rgb(14, 92, 14);
 }
 
 .navbar .navbar-toggler {
- border: 0;
-
+	border: 0;
 }
 
 .navbar-logo {
-    font-family: 'Zilla Slab', serif;
-    float: left;
-    font-size: 30px;
-    margin-left: 10px;
-    line-height: 70px;
-    color: rgb(223, 107, 29);
-    font-weight: bold;
-    text-transform: uppercase;
-    
+	font-family: 'Zilla Slab', serif;
+	float: left;
+	font-size: 30px;
+	margin-left: 10px;
+	line-height: 70px;
+	color: rgb(223, 107, 29);
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
-.navbar-logo a  {
-    font-family:  'Zilla Slab', serif;
-    color: rgb(255, 106, 7);
-    font-weight: bold;
-    float: right;
-    font-size: 35px;
-    text-transform: uppercase; 
-    background-color: rgb(73, 168, 81);
+.navbar-logo a {
+	font-family: 'Zilla Slab', serif;
+	color: rgb(255, 106, 7);
+	font-weight: bold;
+	float: right;
+	font-size: 75px;
+	text-transform: uppercase;
+	background-color: rgb(73, 168, 81);
 }
 
-.navbar navbar-nav a {
-    font-weight: bold;
+.navbar .navbar-nav a {
+	position: inherit;
+    color: #fff;
+    font-size: 18px;
+        
+}
+
+.navbar .dropdown-menu a{
     position: inherit;
-    color: #ffff;
+    color: rgb(54, 109, 59);
+    font-size: 18px;
 }
 
 .navbar .navbar-nav a:hover {
-    border-bottom: 2px solid rgb(223, 107, 29) ;
+    border-bottom: 4px solid rgb(223, 107, 29);
+    
 }
 
 
 /* -----------------------------------------Block dividers */
 
 .block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color:rgb(223, 107, 29) ;
+	width: 75px;
+	height: 5px;
+	border: 0;
+	background-color: rgb(223, 107, 29);
 }
 
 
 /*-------------------------------------- reasons----*/
 
 .important-reasons p {
-    color: rgb(12, 12, 12);
-    font-size: 20px;
-    text-align: justify;
+	color: rgb(12, 12, 12);
+	font-size: 20px;
+	text-align: justify;
 }
+
+
 /*-------------------------------------- modal----*/
 
 .modal-content {
-    background-color: rgb(209, 209, 140);
-   
-
+	background-color: rgb(209, 209, 140);
 }
+
+
 /*----------------------------------------------Contact */
 
 .media-body a {
-    font-family: 'Zilla Slab', serif;
-    text-decoration: none;
-    color: rgb(5, 5, 5);
-    transition: .10s;
+	font-family: 'Zilla Slab', serif;
+	text-decoration: none;
+	color: rgb(5, 5, 5);
+	transition: .10s;
 }
 
 .media-body a:hover {
-    color:rgb(223, 107, 29)
+	color: rgb(223, 107, 29)
 }
+
 
 /*----------------------------------------------Footer */
 
-
 footer {
-    background-color: rgb(14, 92, 14);
-    min-height: 110px;
-    margin: 0;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    width: 100%;
+	background-color: rgb(14, 92, 14);
+	min-height: 110px;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
 }
 
 .footer-container h5 {
-   
-    color: rgb(223, 107, 29);
-    letter-spacing: 1px;
-    font-size: 20px;
-    
+	color: rgb(223, 107, 29);
+	letter-spacing: 1px;
+	font-size: 20px;
 }
 
-.by  {
-    color: rgb(223, 107, 29);
-    font-size: 15px;
-    letter-spacing: 1px;
+.by {
+	color: rgb(223, 107, 29);
+	font-size: 15px;
+	letter-spacing: 1px;
 }
+
 
 /*--------------------------------Social Links */
 
-
 .social-links li a i {
-    width: 30px;
-    height: 30px;
-    line-height: 7px;
-    border-radius: 15%;
-    color: #ffff;
-    background: rgb(81, 107, 81);
-    text-align: center;
-    padding: 11px 0;
-   
+	width: 30px;
+	height: 30px;
+	line-height: 7px;
+	border-radius: 15%;
+	color: #ffff;
+	background: rgb(81, 107, 81);
+	text-align: center;
+	padding: 11px 0;
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+	background: #e84610;
 }
 
-.social-links a i  {
-    width: 30px;
-    height: 30px;
-    line-height: 7px;
-    border-radius: 15%;
-    color: #09b803;
-    text-align: center;
-    padding: 11px 0;
+.social-links a i {
+	width: 30px;
+	height: 30px;
+	line-height: 7px;
+	border-radius: 15%;
+	color: #09b803;
+	text-align: center;
+	padding: 11px 0;
 }
+
 
 /*-----------------------------Gallery------------*/
 
-
 .video-container {
-    align-content: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: .25rem;
-    background-color:#8ec96d;
-    border: 2px solid #8ec96d;
-    border-radius: .25rem;
-    max-width: 100%;
-    height: auto;
+	align-content: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: .25rem;
+	background-color: #8ec96d;
+	border: 2px solid #8ec96d;
+	border-radius: .25rem;
+	max-width: 100%;
+	height: auto;
 }
 
 .gallery-container {
-    margin-top: 80px;
+	margin-top: 80px;
 }
 
 a {
-    color: #f14612;
-    text-decoration: none;
-    background-color: transparent;
+	color: #f14612;
+	text-decoration: none;
+	background-color: transparent;
 }
 
 img {
-    vertical-align: middle;
-    border-style: none;
+	vertical-align: middle;
+	border-style: none;
 }
 
 .gallery img {
-    align-content: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: .25rem;
-    background-color:#8ec96d;
-    border: 2px solid #8ec96d;
-    border-radius: .25rem;
-    max-width: 100%;
-    height: auto;
-    
+	align-content: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: .25rem;
+	background-color: #8ec96d;
+	border: 2px solid #8ec96d;
+	border-radius: .25rem;
+	max-width: 100%;
+	height: auto;
 }
+
 
 /* ------------------Carousel------------------ */
 
 .my-carousel-img {
-    max-height: 100vh;
-    width: 100%;
+	max-height: 100vh;
+	width: 100%;
 }
 
 .carousel {
-    position: relative;
-
+	position: relative;
 }
 
 .carousel-indicators li {
-    width: .55rem;
-    height: .55rem;
-    border-radius: 100%;
-    margin-right: .5rem;
-    background-color: white;
-    opacity: 1;
+	width: .55rem;
+	height: .55rem;
+	border-radius: 100%;
+	margin-right: .5rem;
+	background-color: white;
+	opacity: 1;
 }
 
 .carousel-indicators .active {
-    background-color: rgb(245, 140, 3);
+	background-color: rgb(245, 140, 3);
 }
 
 .carousel-caption {
-    width: 100%;
-    z-index: 5;
-    text-align: center;
-    top: 70%;
-    left: auto;
-    right: auto;
-    bottom: auto;
-    transform: translate(0, -80%);
+	width: 100%;
+	z-index: 5;
+	text-align: center;
+	top: 70%;
+	left: auto;
+	right: auto;
+	bottom: auto;
+	transform: translate(0, -80%);
 }
 
 .carousel-heading {
-    font-family: 'Zilla Slab', serif;
-    color: white;
-    font-weight: 700;
-    
+	font-family: 'Zilla Slab', serif;
+	color: white;
+	font-weight: 700;
 }
 
 .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
 }
+
 
 /*------------------ prices------------------ */
 
 .price-par {
-    color: black;
+	color: black;
 }
 
 .text-center {
-    text-align: center;
+	text-align: center;
 }
 
 .card-body {
-    flex: 1 1 auto;
-    min-height: 5px;
-    padding: 1.25rem;
+	flex: 1 1 auto;
+	min-height: 5px;
+	padding: 1.25rem;
 }
 
-
 .price-title {
-    font-family: 'Zilla Slab', serif;
-    color: rgb(245, 140, 3);
-    font-size: 2.5rem;
-    letter-spacing: .3rem;
-  
+	font-family: 'Zilla Slab', serif;
+	color: rgb(245, 140, 3);
+	font-size: 2.5rem;
+	letter-spacing: .3rem;
 }
 
 .price-1 {
-    background-color: rgb(196, 116, 12);
-    color: black;
-    border-radius: 5px;
-    padding:0; 
-    margin: 0;
+	background-color: rgb(196, 116, 12);
+	color: black;
+	border-radius: 5px;
+	padding: 0;
+	margin: 0;
 }
 
 .price-2 {
-    background-color: rgb(40, 105, 46) ;
-    color: black;
-    border-radius: 5px;
-    padding:0; 
-    margin: 0;
+	background-color: rgb(40, 105, 46);
+	color: black;
+	border-radius: 5px;
+	padding: 0;
+	margin: 0;
 }
 
 .price-3 {
-    background-color: rgb(196, 116, 12) ;
-    color: black;
-    border-radius: 5px;
-    padding:0; 
-    margin: 0;
+	background-color: rgb(196, 116, 12);
+	color: black;
+	border-radius: 5px;
+	padding: 0;
+	margin: 0;
 }
-
 
 
 /*-------------- Facilities------------------ */
 
 .list-group-item {
-    position: relative;
-    display: block;
-    padding: .50rem 5.25rem;
-    margin-bottom: -2px;
-    border: 2px solid rgb(40, 105, 46);
-    width: 50%;
-    margin: auto;
-
-    align-content: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    padding: .25rem;
-    border-radius: .25rem;
-    max-width: 100%;
-    height: auto;
+	position: relative;
+	display: block;
+	padding: .50rem 5.25rem;
+	margin-bottom: -2px;
+	border: 2px solid rgb(40, 105, 46);
+	width: 50%;
+	margin: auto;
+	align-content: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: .25rem;
+	border-radius: .25rem;
+	max-width: 100%;
+	height: auto;
 }

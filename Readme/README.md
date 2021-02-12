@@ -27,8 +27,7 @@ The main objective of this website is to allow people from all over the world to
 - I want to check new photos and videos on the site.
 - I want to have a place to subscribe and receive updates on prices and promotional packages.
 
-# Design
-
+## Design
 
 The design was done in basic colours of:
 - Orange rgb (223, 107, 29);
@@ -37,7 +36,15 @@ The design was done in basic colours of:
 - White;
 - Black rgb (19, 18, 18).
 
+## Wireframes
 
+Wireframes were not used in this project. It was built directly on gitpod.
+
+Home Page Wireframe - View
+
+Mobile Wireframe - View
+
+Contact Us Page Wireframe - View
 
 **Typography**
 
@@ -56,19 +63,11 @@ Two sources were used for this first project:
 **Iconography**
 
 - Icons were used throughout the site to improve the efficiency of UX.
-******
+
 # Features - fazer depois
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-*****
 ### Resources Left to implement 
 - Implement online payment system.
 - Implement way of making online reservation of Cottages.
