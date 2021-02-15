@@ -52,7 +52,7 @@ Two sources were used for this first project:
 
 1. When loading the page you will first find the image of the main house of the place, decorated with a Balinese theme.
 2. All photos of the place are my property;
-3. The Viode is also my property;
+3. The Vide is also my property;
 4. The two pictures of people were taken from google images;
 5. All images were resized and compressed to increase the flow of user experience.
 
@@ -110,9 +110,6 @@ Two sources were used for this first project:
 
 - [Google Fonts](https://fonts.google.com/)
    - The project uses **Google Fonts** to import 'Zilla Slab' and placed in the Style CSS to be used throughout the site.
-
-- [Balsamiq](https://balsamiq.com/)
-   - The project uses **Balsamiq** to create initial wireframes of the site.
 
 - [Git](https://git-scm.com/)
    - The project uses **Git** for version control by using the Gitpod terminal to commit to Git and Push to GitHub.
@@ -187,7 +184,7 @@ This site was validated by Address, copied the address of my [Github](https://gi
 
 **LightHouse**
 
-- Lighthouse is a Google Chrome web development tool, which was used on the site to test its performance, performance, accessibility. 
+- Lighthouse is a Google Chrome web development tool, which was used on the site to test its, performance, accessibility. 
 - Each individual page was tested for desktop and mobile and received a good score in performance, accessibility, best practices and SEO.
 
 
@@ -216,7 +213,7 @@ This site was validated by Address, copied the address of my [Github](https://gi
 
 **Slack Group**
 
-The Slack Group was helpful in this project.
+- The Slack Group was helpful in this project.
 
 **Content**
 
