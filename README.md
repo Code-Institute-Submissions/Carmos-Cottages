@@ -27,7 +27,7 @@ The main objective of this website is to allow people from all over the world to
 - I want to check new photos and videos on the site.
 - I want to have a place to subscribe and receive updates on prices and promotional packages.
 
-## Design
+**Design**
 
 The design was done in basic colours of:
 - Orange rgb (223, 107, 29);
@@ -36,10 +36,10 @@ The design was done in basic colours of:
 - White;
 - Black rgb (19, 18, 18).
 
-## Wireframe
+**Wireframe**
 
 
-- [Home Page Wireframe]()
+- [Home Page Wireframe](https://github.com/monicapuzzi/Carmos-Cottages/blob/master/assets/documentation/mockup.jpeg)
 
 
 **Typography**
@@ -60,58 +60,32 @@ Two sources were used for this first project:
 
 - Icons were used throughout the site to improve the efficiency of UX.
 
-# Features - fazer depois
-Long scrollable page with snapping to the sections.
+## Features 
 
-Sticky top menu, wich makes it 'feel' like multiple pages.
-
-Menu with icons only for an intuitive design with an alternative for visual impaired people.
-
-Icons in the upper right corner of the sections to instantly align them vertically on the screen.
-
-Arrow icons in the lower right corner to scroll a section up or down.
-
-Mouse-hover tooltips for icons and links.
-
-Smooth scrolling for menu items.
-
-Static pictures below the sections for a nice scrolling effect.
-
-Fully responsive design.
-
-Always visible social media links at the left side on wider screens.
-
-Horizontal bar of social icons for the smaller screens.
-
-Record front cover as first page wich will always be visible behind the other transparent pages.
-
-Info section with a short introduction.
-
-Stream section with an embedded soundcloud playlist.
-
-Download section for the MP3/Flac version of the record with help info on zip-files.
-
-Cover-art section to showcase the album-art.
-
-Releaseparty section with an embedded youtube video of the releaseparty.
-
-Back cover of the record.
-
-Footer with credits and links to contributers to both the website as the record.
-
-Transparent background in the footer wich still matches the colour of the navigation bar
-
-Form to sign up for future updates by mail.
-
-In this release the form will do nothing but reload the page, as its functionality is out of the scope of this project.
+- Main page with scrolling to sections.
+- Top menu, which shows four pages (Home, Gallery, Prices, Map) and sections (Facilities and contact).
+- Menu with icons with intuitive design for the visually impaired.
+- Icons in all sections for styling.
+- Icons for contacts and links.
+- Image on the main page with a scrolling effect and a form for updates by mail.
+- Fully responsive design.
+- Social media links always visible in the footer of all pages.
+- On the main page, reason section.
+- On the main page quotes section with static photos from the people.
+- On the main page, contact section.
+- On the Gallery page with photos and videos, responsive. Photos open on separate pages when clicked.
+- Footer with credits and social media links.
+- Cottage price page, which opens with an intuitive dropdown menu.
+- On Price page clicking on the cottage name takes you to the page with photos on the carrousel and below cards with prices and button for booking form.
+- On the Price page there is a facilities section.
+- Map page with live map image.
 
 
-
-### Resources Left to implement 
+**Features Left to implement** 
 - Option to switch to the Portuguese Language.
 - Implement online payment system.
 - Implement way of making online reservation of Cottages.
-
+********************************
 ## Technologies Used
 
 - [HTML 5](https://en.wikipedia.org/wiki/HTML5)
@@ -122,7 +96,7 @@ In this release the form will do nothing but reload the page, as its functionali
 
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
    - The project uses **Javascript** by Bootstrap for the modals and carousel.
-
+********************************
 ## Frameworks, Libraries & Programs Used
 
 - [Bootstrap 4.1](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
@@ -154,7 +128,7 @@ In this release the form will do nothing but reload the page, as its functionali
 
 
 
-# Testing
+## Testing
 
 The W3C Markup Validator and the W3C CSS Validator were used to test and validate all pages of the project to ensure that there were no errors.
 
@@ -221,7 +195,8 @@ This site was validated by Address, copied the address of my [Github](https://gi
 
 - No bugs.
 
-# Deployment 
+
+## Deployment 
 
 - Navigate to the GitHub repository: [Carmo's Cottages](https://github.com/monicapuzzi/Carmos-Cottages)
 - Click on the 'Settings' tab.
@@ -230,25 +205,25 @@ This site was validated by Address, copied the address of my [Github](https://gi
 - Click the Save button.
 - Click on the link to go to the live page.
 
-## Fork of the GitHub Repository
+**Fork of the GitHub Repository**
 
 - Log in to your GitHub account and find the Github Repository
 - In the upper right corner go to "Configuration", click on the "Fork" button.
 - The Repository will be added to your Repositories section.
 
 
-# Credits
+## Credits
 
-## Slack Group
+**Slack Group**
 
 The Slack Group was helpful in this project.
 
-## Content
+**Content**
 
 - All the content was written by developer Monica Puzzi.
 - All photos and videos of the property are owned by developer Monica Puzzi and have been authorized by the owner of the Cottages
 
-### Acknowledgements
+**Acknowledgements**
 
 
 - My mentor, [Aaron Sinnott](https://github.com/aaronsnig501) for the great feedback.
