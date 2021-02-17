@@ -1,15 +1,16 @@
-# **Milestone Project 1 - Code Institute** 
+# Milestone Project 1 - Code Institute
 
 # **Carmo's Cottage**
 
-This is a site for European, American and world countries to get to know and enjoy a cosy place with nature that is located in the Northeast of Brazil, Arraial d'juda - Bahia.
+- This is a site for European, American and world countries to get to know and enjoy a cosy place with nature that is located in the Northeast of Brazil, Arraial d'juda - Bahia.
 
-The main objective of this website is to allow people from all over the world to know a little more about Brazil, our beautiful beaches, nature and culture.
+- The main objective of this website is to allow people from all over the world to know a little more about Brazil, our beautiful beaches, nature and culture.
 
-**Carmo's Cottages** is a **Milestone Project 1** educational project for the Full-Stack Software Developer program developed by the **Code Institute**.
+- **Carmo's Cottages** is a **Milestone Project 1** educational project for the Full-Stack Software Developer program developed by the **Code Institute**.
 
- ![Screenshot](assets/documentation/photo.png)
+ ![Screenshot](/documentation/photo.png)
 
+****************
 
 ## User Experience (UX)
  
@@ -59,7 +60,7 @@ Two sources were used for this first project:
 **Iconography**
 
 - Icons were used throughout the site to improve the efficiency of UX.
-
+******************
 ## Features 
 
 - Main page with scrolling to sections.
@@ -70,9 +71,9 @@ Two sources were used for this first project:
 - Image on the main page with a scrolling effect and a form for updates by mail.
 - Fully responsive design.
 - Social media links always visible in the footer of all pages.
-- On the main page, reason section.
-- On the main page quotes section with static photos from the people.
-- On the main page, contact section.
+- On the menu, reason section.
+- On the menu, quotes section with static photos from the people.
+- On the menu, contact section.
 - On the Gallery page with photos and videos, responsive. Photos open on separate pages when clicked.
 - Footer with credits and social media links.
 - Cottage price page, which opens with an intuitive dropdown menu.
@@ -123,7 +124,7 @@ Two sources were used for this first project:
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
    - The project uses **Lighthouse** for testing performance, accessibility of the site.
 
-
+***********************
 
 ## Testing
 
@@ -131,11 +132,11 @@ The W3C Markup Validator and the W3C CSS Validator were used to test and validat
 
  - **Valid CSS**
 
-![Valid CSS](assets/documentation/css.png)
+![Valid CSS](/documentation/css.png)
 
 - **Valid HTML**
 
-![Valid HTML](assets/documentation/html.png)
+![Valid HTML](/documentation/html.png)
 
 All of the pages were tested and validated to ensure the perfect functioning of the project / website.
 
@@ -164,23 +165,26 @@ This site was validated by Address, copied the address of my [Github](https://gi
 
 **Testing User Stories from User Experience (UX)**
 
+-
+
+
+
+**Further Testing**
+
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+- A lot testing was done to ensure that all pages were working correctly.
+- Friends were asked to review the site and documentation to point out any bugs and/or user experience issues.
 - The site has all the necessary sections to facilitate the user's navigation, the structure was well designed for better user ability, the site guides each section with prowess and expertise. 
 - All navigation links have been tested to ensure better development.
-
 - The site is fully responsive on desktops, tablets and mobile devices and has been tested with: MotoG4, Galaxy S5, Pixel 2, Pixel 2 XL, Iphone 5 / SE, Iphone 6,7,8, 8 Plus, X, Ipad, Ipad Pro , Surface Duo and Galaxy Fold, Tablet, Laptop L, 4K.
-
 - There are photos that can be opened on separate pages. It has a video that is played loudly with the volume on the mute, but it has buttons that can stop playback, start again, volume and mute control, it also has the possibility of enlarging it to full screen, downloading the video and the possibility of taking pictures of images from the video. Which is highly responsive on all devices.
-
- ![Screenshot](assets/documentation/2print.png)
-
+ ![Screenshot](/documentation/2print.png)
 - There is a "Contact Us" section located at the end of the main page and in the menu, with email address, contact numbers for landline and cell phones and WhatsApp. Clicking on the email address or phones, you are immediately directed to the email box or dialing the phone or WhatsApp.
-
 - All social media links are housed in the footer and have been tested.
-
-![Screenshot](assets/documentation/contact.png)
+![Screenshot](/documentation/contact.png)
 
 - **You can find the site working here: [Demo](https://monicapuzzi.github.io/Carmos-Cottages/)**
-
 
 **LightHouse**
 
@@ -188,10 +192,10 @@ This site was validated by Address, copied the address of my [Github](https://gi
 - Each individual page was tested for desktop and mobile and received a good score in performance, accessibility, best practices and SEO.
 
 
-**Bugs**
+**Known Bugs**
 
-- No bugs.
-
+- No bugs found.
+***********
 
 ## Deployment 
 
@@ -208,7 +212,7 @@ This site was validated by Address, copied the address of my [Github](https://gi
 - In the upper right corner go to "Configuration", click on the "Fork" button.
 - The Repository will be added to your Repositories section.
 
-
+********************
 ## Credits
 
 **Slack Group**
