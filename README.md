@@ -177,10 +177,14 @@ This site was validated by Address, copied the address of my [Github](https://gi
 - The main points are on the main page and with the menu that easily directs the other pages.
 
 3. As a First Visitor, I want to be able to access the site from different devices.
+<<<<<<< HEAD
 - The website was developed to be quickly accessed by different devices.
 - It is fully responsive for cell phones, tablets, laptops and computers of different brands and models.
 - The User can rest assured that he / she will not find any problem of access with different devices. 
 
+=======
+- 
+>>>>>>> c5507f0e2cc6127eb803b787cdfe342a985e4c22
 
 **Returning Visitor Goals**: 
 
@@ -198,6 +202,7 @@ This site was validated by Address, copied the address of my [Github](https://gi
 - The footer contains links to the organization's Facebook, Instagram and Twitter pages.
 - Whichever link they click on, it will open in a new tab to ensure that the user can easily return to the site.
 - The User can easily access all of our social media pages and be part of our groups.
+<<<<<<< HEAD
 
 **Frequent User Goals**: 
 
@@ -205,6 +210,15 @@ This site was validated by Address, copied the address of my [Github](https://gi
 - in the menu of each page there is a section called gallery, which is very intuitive and easy to access.
 - The user will feel comfortable to see our gallery with photos and videos.
 
+=======
+
+**Frequent User Goals**: 
+
+1. As a Frequent User, I want to check new photos and videos on the site.
+- in the menu of each page there is a section called gallery, which is very intuitive and easy to access.
+- The user will feel comfortable to see our gallery with photos and videos.
+
+>>>>>>> c5507f0e2cc6127eb803b787cdfe342a985e4c22
 2. As a Frequent User, I want to have a place to subscribe and receive updates on prices and promotional packages.
 - On the main page you have a form to fill out and register.
 - The user can see "Subscribe to our newsletter" and is asked to enter their email address.
