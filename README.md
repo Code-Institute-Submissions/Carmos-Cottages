@@ -16,13 +16,13 @@
  
 **First Time Visitor Goals**: 
 - I want to easily navigate the site. 
-- I want to find content quickly without getting lost.
+- I want to easily understand the main purpose of the site and learn more about the place.
 - I want to be able to access the site from different devices.
 
 **Returning Visitor Goals**: 
 - I want to find the most important information with a touch. 
-- I want to be able to contact the owner of the site with agility. 
-- I want to be able to access photos and videos of the place.
+- I want to be able to contact the owner of the site with agility for bookings.
+- I want to find Social Group links so that I can join and interact with others in the community.
 
 **Frequent User Goals**: 
 - I want to check new photos and videos on the site.
@@ -61,6 +61,7 @@ Two sources were used for this first project:
 
 - Icons were used throughout the site to improve the efficiency of UX.
 ******************
+
 ## Features 
 
 - Main page with scrolling to sections.
@@ -165,8 +166,47 @@ This site was validated by Address, copied the address of my [Github](https://gi
 
 **Testing User Stories from User Experience (UX)**
 
--
+**First Time Visitor Goals**: 
 
+1. As a First Visitor, I want to easily navigate the site. 
+- The site was designed to be easy to access and not leave the user lost. 
+- At the top of each page is a very intuitive and easy to understand navigation bar.
+- The menu has a so-called "contacts" that sends the user directly to the main page in the contact section, so that he can send messages to the local organizers or ask questions.
+
+2. As a First Visitor, I want to easily understand the main purpose of the site and learn more about the place.
+- Upon entering the site, users are automatically greeted with an easy-to-read navigation bar to go to the page of their choice. Below is a main image with text and a "submit" button to register and email and receive more information.
+- The main points are on the main page and with the menu that easily directs the other pages.
+
+3. As a First Visitor, I want to be able to access the site from different devices.
+- 
+
+**Returning Visitor Goals**: 
+
+1. As a Returning Visitor, I want to find the most important information with a touch. 
+- Our Site was created to be easy to navigate. 
+- The User will feel comfortable to browse and find all the necessary information, as the layout is very intuitive.
+
+2. As a Returning Visitor, I want to be able to contact the owner of the site with agility for bookings. 
+- On the Prices page, it is easy to find in the session with the values of the rooms, there is a form to register and book.
+- Here, they can fill out the form on the page, each cottage has a submit button to contact the Carmo's Cottages organization, or have information as they wish.
+- There is also on the main page in the footer the e-mail button that is configured to automatically open your e-mail application and automatically fill in the e-mail address in the "contact" section.
+
+3. As a Returning Visitor, I want to find a Social Group links so that I can join and interact with others in the community.
+- The social media can be found at the footer of each page.
+- The footer contains links to the organization's Facebook, Instagram and Twitter pages.
+- Whichever link they click on, it will open in a new tab to ensure that the user can easily return to the site.
+- The User can easily access all of our social media pages and be part of our groups.
+
+**Frequent User Goals**: 
+
+1. As a Frequent User, I want to check new photos and videos on the site.
+- in the menu of each page there is a section called gallery, which is very intuitive and easy to access.
+- The user will feel comfortable to see our gallery with photos and videos.
+
+2. As a Frequent User, I want to have a place to subscribe and receive updates on prices and promotional packages.
+- On the main page you have a form to fill out and register.
+- The user can see "Subscribe to our newsletter" and is asked to enter their email address.
+- There is a "Submit" button, located in the center of the main photo and can be easily distinguished.
 
 
 **Further Testing**
