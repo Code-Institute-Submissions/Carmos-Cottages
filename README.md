@@ -41,7 +41,7 @@ The design was done in basic colours of:
 **Wireframe**
 
 
-- [Home Page Wireframe](https://github.com/monicapuzzi/Carmos-Cottages/blob/master/assets/documentation/mockup.jpeg)
+- [Home Page Wireframe](https://github.com/monicapuzzi/Carmos-Cottages/blob/master/documentation/mockup.jpeg)
 
 
 **Typography**
